@@ -1,0 +1,9 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%select%%> and <%%endselect%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- open the generated 't_colaboraciones_ppam_view.php' file in your text editor and -->
+<!-- change the value of $x->ShowTableHeader to 0 -->
+
+		<td id="t_colaboraciones_ppam-IdVoluntario-<%%VALUE(IdColaboracion)%%>" class="t_colaboraciones_ppam-IdVoluntario text-center"><%%SELECT%%><%%VALUE(IdVoluntario)%%><%%ENDSELECT%%></td>
+		<td id="t_colaboraciones_ppam-IdPPAM-<%%VALUE(IdColaboracion)%%>" class="t_colaboraciones_ppam-IdPPAM text-center"><%%SELECT%%><%%VALUE(IdPPAM)%%><%%ENDSELECT%%></td>

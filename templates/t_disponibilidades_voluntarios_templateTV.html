@@ -1,0 +1,13 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%select%%> and <%%endselect%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- open the generated 't_disponibilidades_voluntarios_view.php' file in your text editor and -->
+<!-- change the value of $x->ShowTableHeader to 0 -->
+
+		<td id="t_disponibilidades_voluntarios-IdPPAM-<%%VALUE(IdDisponibilidad)%%>" class="t_disponibilidades_voluntarios-IdPPAM text-center"><%%SELECT%%><%%VALUE(IdPPAM)%%><%%ENDSELECT%%></td>
+		<td id="t_disponibilidades_voluntarios-IdVoluntario-<%%VALUE(IdDisponibilidad)%%>" class="t_disponibilidades_voluntarios-IdVoluntario text-center"><%%SELECT%%><%%VALUE(IdVoluntario)%%><%%ENDSELECT%%></td>
+		<td id="t_disponibilidades_voluntarios-IdDiaSemana-<%%VALUE(IdDisponibilidad)%%>" class="t_disponibilidades_voluntarios-IdDiaSemana text-center"><%%SELECT%%><%%VALUE(IdDiaSemana)%%><%%ENDSELECT%%></td>
+		<td id="t_disponibilidades_voluntarios-IdTurnoDisponible-<%%VALUE(IdDisponibilidad)%%>" class="t_disponibilidades_voluntarios-IdTurnoDisponible text-center"><%%SELECT%%><%%VALUE(IdTurnoDisponible)%%><%%ENDSELECT%%></td>
+		<td id="t_disponibilidades_voluntarios-VecesDisponibilidadMes-<%%VALUE(IdDisponibilidad)%%>" class="t_disponibilidades_voluntarios-VecesDisponibilidadMes text-center"><%%SELECT%%><%%VALUE(VecesDisponibilidadMes)%%><%%ENDSELECT%%></td>
+		<td id="t_disponibilidades_voluntarios-Observaciones-<%%VALUE(IdDisponibilidad)%%>" class="t_disponibilidades_voluntarios-Observaciones "><%%SELECT%%><%%VALUE(Observaciones)%%><%%ENDSELECT%%></td>

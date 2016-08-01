@@ -1,0 +1,14 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%select%%> and <%%endselect%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- open the generated 't_registro_estudios_view.php' file in your text editor and -->
+<!-- change the value of $x->ShowTableHeader to 0 -->
+
+		<td id="t_registro_estudios-IdPPAM-<%%VALUE(IdRegistroEstudios)%%>" class="t_registro_estudios-IdPPAM text-center"><%%SELECT%%><%%VALUE(IdPPAM)%%><%%ENDSELECT%%></td>
+		<td id="t_registro_estudios-IdVoluntario-<%%VALUE(IdRegistroEstudios)%%>" class="t_registro_estudios-IdVoluntario text-center"><%%SELECT%%><%%VALUE(IdVoluntario)%%><%%ENDSELECT%%></td>
+		<td id="t_registro_estudios-NombreEstudiante-<%%VALUE(IdRegistroEstudios)%%>" class="t_registro_estudios-NombreEstudiante "><%%SELECT%%><%%VALUE(NombreEstudiante)%%><%%ENDSELECT%%></td>
+		<td id="t_registro_estudios-IdPublicacion-<%%VALUE(IdRegistroEstudios)%%>" class="t_registro_estudios-IdPublicacion text-center"><%%SELECT%%><%%VALUE(IdPublicacion)%%><%%ENDSELECT%%></td>
+		<td id="t_registro_estudios-Capitulo-<%%VALUE(IdRegistroEstudios)%%>" class="t_registro_estudios-Capitulo text-center"><%%SELECT%%><%%VALUE(Capitulo)%%><%%ENDSELECT%%></td>
+		<td id="t_registro_estudios-Parrafo-<%%VALUE(IdRegistroEstudios)%%>" class="t_registro_estudios-Parrafo text-center"><%%SELECT%%><%%VALUE(Parrafo)%%><%%ENDSELECT%%></td>
+		<td id="t_registro_estudios-Observaciones-<%%VALUE(IdRegistroEstudios)%%>" class="t_registro_estudios-Observaciones "><%%SELECT%%><%%VALUE(Observaciones)%%><%%ENDSELECT%%></td>

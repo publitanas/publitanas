@@ -1,0 +1,11 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%select%%> and <%%endselect%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- open the generated 'v_informediarioporppam_view.php' file in your text editor and -->
+<!-- change the value of $x->ShowTableHeader to 0 -->
+
+		<td id="v_informediarioporppam-ppam-<%%VALUE(id)%%>" class="v_informediarioporppam-ppam text-center"><%%SELECT%%><%%VALUE(ppam)%%><%%ENDSELECT%%></td>
+		<td id="v_informediarioporppam-publicacion-<%%VALUE(id)%%>" class="v_informediarioporppam-publicacion text-center"><%%SELECT%%><%%VALUE(publicacion)%%><%%ENDSELECT%%></td>
+		<td id="v_informediarioporppam-fecha-<%%VALUE(id)%%>" class="v_informediarioporppam-fecha text-center"><%%SELECT%%><%%VALUE(fecha)%%><%%ENDSELECT%%></td>
+		<td id="v_informediarioporppam-totalesmes-<%%VALUE(id)%%>" class="v_informediarioporppam-totalesmes text-center"><%%SELECT%%><%%VALUE(totalesmes)%%><%%ENDSELECT%%></td>

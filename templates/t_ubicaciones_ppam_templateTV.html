@@ -1,0 +1,12 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%select%%> and <%%endselect%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- open the generated 't_ubicaciones_ppam_view.php' file in your text editor and -->
+<!-- change the value of $x->ShowTableHeader to 0 -->
+
+		<td id="t_ubicaciones_ppam-NombrePPAM-<%%VALUE(IdPPAM)%%>" class="t_ubicaciones_ppam-NombrePPAM "><%%SELECT%%><%%VALUE(NombrePPAM)%%><%%ENDSELECT%%></td>
+		<td id="t_ubicaciones_ppam-UbicacionPPAM-<%%VALUE(IdPPAM)%%>" class="t_ubicaciones_ppam-UbicacionPPAM "><%%SELECT%%><%%VALUE(UbicacionPPAM)%%><%%ENDSELECT%%></td>
+		<td id="t_ubicaciones_ppam-PoblacionPPAM-<%%VALUE(IdPPAM)%%>" class="t_ubicaciones_ppam-PoblacionPPAM text-center"><%%SELECT%%><%%VALUE(PoblacionPPAM)%%><%%ENDSELECT%%></td>
+		<td id="t_ubicaciones_ppam-CoordenadasGPS-<%%VALUE(IdPPAM)%%>" class="t_ubicaciones_ppam-CoordenadasGPS text-center"><%%SELECT%%><%%VALUE(CoordenadasGPS)%%><%%ENDSELECT%%></td>
+		<td id="t_ubicaciones_ppam-IdCiudadPPAM-<%%VALUE(IdPPAM)%%>" class="t_ubicaciones_ppam-IdCiudadPPAM text-center"><%%SELECT%%><%%VALUE(IdCiudadPPAM)%%><%%ENDSELECT%%></td>

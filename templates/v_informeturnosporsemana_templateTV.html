@@ -1,0 +1,10 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%select%%> and <%%endselect%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- open the generated 'v_informeturnosporsemana_view.php' file in your text editor and -->
+<!-- change the value of $x->ShowTableHeader to 0 -->
+
+		<td id="v_informeturnosporsemana-NombreVoluntario-<%%VALUE(id)%%>" class="v_informeturnosporsemana-NombreVoluntario text-center"><%%SELECT%%><%%VALUE(NombreVoluntario)%%><%%ENDSELECT%%></td>
+		<td id="v_informeturnosporsemana-semana-<%%VALUE(id)%%>" class="v_informeturnosporsemana-semana text-center"><%%SELECT%%><%%VALUE(semana)%%><%%ENDSELECT%%></td>
+		<td id="v_informeturnosporsemana-NumeroTurnos-<%%VALUE(id)%%>" class="v_informeturnosporsemana-NumeroTurnos text-center"><%%SELECT%%><%%VALUE(NumeroTurnos)%%><%%ENDSELECT%%></td>

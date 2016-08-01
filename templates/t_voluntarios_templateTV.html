@@ -1,0 +1,13 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%select%%> and <%%endselect%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- open the generated 't_voluntarios_view.php' file in your text editor and -->
+<!-- change the value of $x->ShowTableHeader to 0 -->
+
+		<td id="t_voluntarios-NombreVoluntario-<%%VALUE(IdVoluntario)%%>" class="t_voluntarios-NombreVoluntario text-center"><%%SELECT%%><%%VALUE(NombreVoluntario)%%><%%ENDSELECT%%></td>
+		<td id="t_voluntarios-IdPPAM-<%%VALUE(IdVoluntario)%%>" class="t_voluntarios-IdPPAM "><%%SELECT%%><%%VALUE(IdPPAM)%%><%%ENDSELECT%%></td>
+		<td id="t_voluntarios-TelefonoMovilVoluntario-<%%VALUE(IdVoluntario)%%>" class="t_voluntarios-TelefonoMovilVoluntario text-center"><%%SELECT%%><%%VALUE(TelefonoMovilVoluntario)%%><%%ENDSELECT%%></td>
+		<td id="t_voluntarios-MailVoluntario-<%%VALUE(IdVoluntario)%%>" class="t_voluntarios-MailVoluntario text-center"><%%SELECT%%><%%VALUE(MailVoluntario)%%><%%ENDSELECT%%></td>
+		<td id="t_voluntarios-CongregacionVoluntario-<%%VALUE(IdVoluntario)%%>" class="t_voluntarios-CongregacionVoluntario text-center"><%%SELECT%%><%%VALUE(CongregacionVoluntario)%%><%%ENDSELECT%%></td>
+		<td id="t_voluntarios-Activo-<%%VALUE(IdVoluntario)%%>" class="t_voluntarios-Activo text-center"><%%SELECT%%><%%VALUE(Activo)%%><%%ENDSELECT%%></td>

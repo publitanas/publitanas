@@ -1,0 +1,12 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%select%%> and <%%endselect%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- open the generated 't_turnos_hermanos_view.php' file in your text editor and -->
+<!-- change the value of $x->ShowTableHeader to 0 -->
+
+		<td id="t_turnos_hermanos-IdPPAM-<%%VALUE(IdTurnoHermano)%%>" class="t_turnos_hermanos-IdPPAM text-center"><%%SELECT%%><%%VALUE(IdPPAM)%%><%%ENDSELECT%%></td>
+		<td id="t_turnos_hermanos-FechaAsignacionTurno-<%%VALUE(IdTurnoHermano)%%>" class="t_turnos_hermanos-FechaAsignacionTurno text-center"><%%SELECT%%><%%VALUE(FechaAsignacionTurno)%%><%%ENDSELECT%%></td>
+		<td id="t_turnos_hermanos-IdTurno-<%%VALUE(IdTurnoHermano)%%>" class="t_turnos_hermanos-IdTurno text-center"><%%SELECT%%><%%VALUE(IdTurno)%%><%%ENDSELECT%%></td>
+		<td id="t_turnos_hermanos-IdVoluntario-<%%VALUE(IdTurnoHermano)%%>" class="t_turnos_hermanos-IdVoluntario text-center"><%%SELECT%%><%%VALUE(IdVoluntario)%%><%%ENDSELECT%%></td>
+		<td id="t_turnos_hermanos-IdResponsabilidad-<%%VALUE(IdTurnoHermano)%%>" class="t_turnos_hermanos-IdResponsabilidad text-center"><%%SELECT%%><%%VALUE(IdResponsabilidad)%%><%%ENDSELECT%%></td>
